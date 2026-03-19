@@ -19,7 +19,8 @@
 ## Abstract
 Multi-view contrastive clustering has emerged as a powerful paradigm for learning comprehensive representations from heterogeneous data sources. However, prevailing approaches typically overlook the intrinsic geometric and clustering structures, rendering them structure-agnostic.  In this paper, we propose a novel framework that performs Multi-Hierarchical Contrastive Spectral Fusion (MCSF) to address these limitations. MCSF integrates deep spectral embedding into the encoder to preserve local manifold structure, guiding the learned representations to be clustering-friendly.  To enhance cross-view consistency, MCSF introduces a multi-hierarchical contrastive loss jointly optimizing (1) view-specific structure preservation, (2) view-consensus alignment, and (3) consensus structure refinement. This mechanism enables the construction of an accurate and semantically consistent consensus representation, effectively fusing multi-view information and uncovering authentic cluster structures. Extensive experiments on benchmarks validate the effectiveness of multi-hierarchical contrastive spectral fusion in clustering accuracy and representation quality.
 
-![](imgs/illustration.png)
+<div align="center"><img src="imgs/illustration.png">
+</div>
 
 ## Requirements
 
