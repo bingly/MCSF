@@ -1,0 +1,15 @@
+dataset: MSRCv1
+
+learning_rate: 0.0005
+batch_size: 105
+seed: 10
+con_epochs: 201
+normalized: False
+
+dim_high_feature: 1500
+dim_low_feature: 1024
+dims: [256, 512, 1024]
+alpha: 0.0001
+beta: 0.0001
+knn: 2
+batch_size_set: [35, 70, 105, 210]

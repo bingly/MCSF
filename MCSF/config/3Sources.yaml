@@ -1,0 +1,15 @@
+dataset: 3Sources
+
+learning_rate: 0.0005
+batch_size: 169
+seed: 10
+con_epochs: 201
+normalized: False
+
+dim_high_feature: 1500
+dim_low_feature: 1024
+dims: [256, 512, 1024]
+alpha: 1
+beta: 0.01
+knn: 15
+batch_size_set: [169]

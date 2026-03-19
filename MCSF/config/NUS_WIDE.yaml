@@ -1,0 +1,15 @@
+dataset: NUS_WIDE
+
+learning_rate: 0.0005
+batch_size: 1600
+seed: 10
+con_epochs: 201
+normalized: False
+
+dim_high_feature: 2000
+dim_low_feature: 500
+dims: [256, 512, 1024]
+alpha: 10
+beta: 100
+knn: 3
+batch_size_set: [100, 200, 400, 800, 1600]

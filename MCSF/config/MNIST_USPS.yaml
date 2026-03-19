@@ -1,0 +1,15 @@
+dataset: MNIST_USPS
+
+learning_rate: 0.0001
+batch_size: 2500
+seed: 10
+con_epochs: 201
+normalized: False
+
+dim_high_feature: 1500
+dim_low_feature: 1024
+dims: [256, 512, 1024]
+alpha: 0.001
+beta: 0.1
+knn: 2
+batch_size_set: [50, 100, 200, 500, 1000, 2500, 5000]

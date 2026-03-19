@@ -1,0 +1,16 @@
+dataset: Cifar100
+
+learning_rate: 0.0005
+batch_size: 2000
+seed: 10
+con_epochs: 21
+normalized: False
+temperature_l: 0.5
+
+dim_high_feature: 2500
+dim_low_feature: 500
+dims: [256, 512]
+alpha: 0.1
+beta: 0.1
+knn: 2
+batch_size_set: [100, 500, 1000, 2000, 5000]
